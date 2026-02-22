@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🌤 Weather App</h1>
+
+    <div id="locationWeather">
+        <h2>Your Location Weather</h2>
+        <p id="localTemp">Loading...</p>
+    </div>
+
+    <div id="searchWeather">
+        <h2>Search City Weather</h2>
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button onclick="getCityWeather()">Search</button>
+        <p id="cityTemp"></p>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

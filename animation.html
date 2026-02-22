@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>project</title>
+<style>
+*{
+	margin: 0;
+}
+.box{
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	animation: movingBox 10s linear 0s infinite;
+}
+@keyframes movingBox{
+	0%{
+		position: relative;
+		left: 0vw;
+	}
+	25%{
+		position: relative;
+		left: 90vw;
+		top: 0vw;
+	}
+	50%{
+		position: relative;
+		left: 90vw;
+		top: 87vh;
+	}
+	75%{
+		position: relative;
+		left: 0vw;
+		top: 87vh;
+	}
+	100%{
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+}
+</style>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>
